@@ -1,21 +1,7 @@
 # hotelfire
 
-## Project setup
-```
-npm install
-```
+Mini hotel search. This project is **not** for public use. It requires backend functions which are not part of this repository.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## Demo
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
+To see this in action, visit http://travelwebowners.org/hotels/
