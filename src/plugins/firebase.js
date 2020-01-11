@@ -4,13 +4,13 @@ import 'firebase/firestore'
 
 if (!firebase.apps.length) {
     const config = {
-        apiKey: "AIzaSyCEoCwXPb9RNS2OnFQ6NUnrjQwKwCok8M4",
-        authDomain: "hotels-8fb5d.firebaseapp.com",
-        databaseURL: "https://hotels-8fb5d.firebaseio.com",
-        projectId: "hotels-8fb5d",
-        storageBucket: "hotels-8fb5d.appspot.com",
-        messagingSenderId: "156881667073",
-        appId: "1:156881667073:web:fdebaf247bffadb5"
+        apiKey: process.env.VUE_APP_FB_API,
+        authDomain: process.env.VUE_APP_DOMAIN,
+        databaseURL: process.env.VUE_APP_DB,
+        projectId: process.env.VUE_APP_PROJECT,
+        storageBucket: process.env.VUE_APP_BUCKET,
+        messagingSenderId: process.env.VUE_APP_MSGID,
+        appId: process.env.VUE_APP_APP_ID
     }
     firebase.initializeApp(config)
     // firebase.firestore().settings({timestampsInSnapshots: true})
