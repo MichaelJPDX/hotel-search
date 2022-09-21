@@ -14,7 +14,7 @@
     "firebase-admin": "^8.9.0",
     "moment": "^2.29.4",
     "vue": "^2.6.11",
-    "vuetify": "^2.2.3"
+    "vuetify": "^2.6.10"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.12.1",
